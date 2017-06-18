@@ -1092,3 +1092,20 @@
 		#footer .icons a {
 			color: #bbb;
 		}
+
+
+		/* Custom CSS (By Kelden Lin) */
+		#staff {
+			padding-left: 0;
+		}
+
+		#staff li {
+			list-style-type: none;
+			padding-left: 0;
+		}
+
+		.role {
+			font-size: .8em;
+    	opacity: .7;
+			margin-top: -8px;
+		}
