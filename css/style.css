@@ -978,7 +978,8 @@
 
 	#banner {
 		background-color: #666666;
-		background-image: url("../images/Jax.png");
+		background-image: linear-gradient( rgba(0,0,0,.6), rgba(0,0,0,.6) ),
+		url("../images/Jax.png");
 		background-size: cover;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -997,7 +998,7 @@
 			height: 100%;
 			background: rgba(64, 72, 80, 0.25);
 		}
-		
+
 		#banner:credit {
 			position: absolute;
 			left: 100;
