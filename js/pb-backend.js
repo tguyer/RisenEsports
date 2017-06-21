@@ -36,7 +36,7 @@ window.onload = function() {
                 document.getElementById("t"+i+"s"+k).innerHTML = "<a title='op.gg link' href = 'https://na.op.gg/summoner/userName=" +
                 players[k+5].name +  "'>" + players[k+5].name + "</a>";
               } else {
-                document.getElementById("t"+i+"s"+k).innerHTML = "Sub Slot "+ (k+1);
+                document.getElementById("t"+i+"s"+k).innerHTML = "<span style='opacity:.6'>Sub Slot "+ (k+1) + "</span>";
               }
             }
           }
