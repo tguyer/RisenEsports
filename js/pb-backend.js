@@ -62,7 +62,7 @@ function teamProcess(plainData) {
   console.log(newData);
   // Loop through the teams
   for (var i=0; i<newData.length; i++) {
-    teamInfo = newData[i].split("\n");
+    teamInfo = newData[i].split("|");
     console.log(teamInfo);
     teamInfo = teamInfo.filter(function(entry) { return entry.trim() != ''; });
 
