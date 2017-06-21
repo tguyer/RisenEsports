@@ -1094,18 +1094,116 @@
 		}
 
 
-		/* Custom CSS (By Kelden Lin) */
-		#staff {
-			padding-left: 0;
-		}
+/* Custom CSS (By Kelden Lin) */
+/* Navbar styling */
+#nav ul {
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
 
-		#staff li {
-			list-style-type: none;
-			padding-left: 0;
-		}
+#nav ul a {
+	display:block;
+	color:#333;
+	padding:0 15px;
+}
 
-		.role {
-			font-size: .8em;
-    	opacity: .7;
-			margin-top: -8px;
-		}
+#nav ul li {
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#nav ul li.current-menu-item {
+	background:#f3f3f3
+}
+
+#nav ul li:hover {
+	background:#f6f6f6
+}
+
+#nav ul ul {
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	border: 1px solid lightgray;
+	background:#fff;
+	padding:0
+}
+
+#nav ul ul li {
+	float:none;
+	width:200px
+}
+
+#nav ul ul a {
+	line-height:120%;
+	padding:10px 15px
+}
+
+#nav ul ul ul {
+	top:0;
+	left:100%
+}
+
+#nav ul li:hover > ul {
+	display:block
+}
+
+
+/* Index.html */
+#staff {
+	padding-left: 0;
+}
+
+#staff li {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.role {
+	font-size: .8em;
+	opacity: .7;
+	margin-top: -8px;
+}
+
+/* Team Database */
+#lastUpdated {
+	margin: 0;
+  font-size: .9em;
+	opacity: .9;
+}
+
+#lastUpdated a {
+	text-decoration: none;
+}
+
+.\32 u {
+	width: 20%;
+}
+
+.\32 u section p {
+	margin: 0;
+	font-size: 1.1em;
+}
+
+.\32 u section a {
+	text-decoration: none;
+}
+
+.\32 u section a:hover {
+	text-decoration: underline;
+}
+
+.\32 u section p b {
+	font-size: .8em;
+}
+
+.pos {
+	opacity: .7;
+	font-size: .8em;
+}
