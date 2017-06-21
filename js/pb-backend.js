@@ -32,7 +32,6 @@ window.onload = function() {
 
             // Display the subs
             for (var k=0; k<2; k++) {
-              console.log(typeof players[k+5]);
               if(typeof players[k+5] != "undefined") {
                 document.getElementById("t"+i+"s"+k).innerHTML = "<a title='op.gg link' href = 'https://na.op.gg/summoner/userName=" +
                 players[k+5].name +  "'>" + players[k+5].name + "</a>";
@@ -77,7 +76,7 @@ function teamProcess(plainData) {
     // Add subs to playerbase
     if(teamInfo.length > 2) {
       var subs = teamInfo[2].split(":");
-      for(var k=0; k<starters.length; k++) {
+      for(var k=0; k<subs.length; k++) {
         var player = new Object();
         player.name = subs[k];
         player.team = teamInfo[0];
