@@ -32,7 +32,8 @@ window.onload = function() {
 
             // Display the subs
             for (var k=0; k<2; k++) {
-              if(typeof players[k+5] == 'Object') {
+              console.log(typeof players[k+5]);
+              if(typeof players[k+5] != "undefined") {
                 document.getElementById("t"+i+"s"+k).innerHTML = "<a title='op.gg link' href = 'https://na.op.gg/summoner/userName=" +
                 players[k+5].name +  "'>" + players[k+5].name + "</a>";
               } else {
@@ -57,12 +58,10 @@ function teamProcess(plainData) {
   var playerData = [];
   var newData = plainData.split("-");
   newData = newData.filter(Boolean);
-  console.log(newData);
   // Loop through the teams
   for (var i=0; i<newData.length; i++) {
     teamInfo = newData[i].split("|");
     teamInfo = teamInfo.filter(function(entry) { return entry.trim() != ''; });
-
     // 0 = Team name, 1 = Starters, 2 = Subs
     teams.push(teamInfo[0]); // Add team to team list
     // Add starters to playerbase
@@ -77,7 +76,6 @@ function teamProcess(plainData) {
 
     // Add subs to playerbase
     if(teamInfo.length > 2) {
-
       var subs = teamInfo[2].split(":");
       for(var k=0; k<starters.length; k++) {
         var player = new Object();
