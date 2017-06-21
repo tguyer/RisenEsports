@@ -59,13 +59,13 @@ function teamProcess(plainData) {
   var playerData = [];
   var newData = plainData.split("-");
   newData = newData.filter(Boolean);
+  console.log(newData);
   // Loop through the teams
   for (var i=0; i<newData.length; i++) {
     teamInfo = newData[i].split("\n");
     console.log(teamInfo);
     teamInfo = teamInfo.filter(function(entry) { return entry.trim() != ''; });
 
-    console.log(teamInfo);
     // 0 = Team name, 1 = Starters, 2 = Subs
     teams.push(teamInfo[0]); // Add team to team list
     // Add starters to playerbase
