@@ -16,8 +16,6 @@ window.onload = function() {
           var processed = teamProcess(plainData);
           var teams = processed[0];
           var playerData = processed[1];
-          console.log(teams);
-          console.log(playerData);
 
           for (var i=0; i<teams.length; i++) {
             document.getElementById("t"+i).innerHTML = teams[i];
@@ -63,7 +61,6 @@ function teamProcess(plainData) {
   // Loop through the teams
   for (var i=0; i<newData.length; i++) {
     teamInfo = newData[i].split("|");
-    console.log(teamInfo);
     teamInfo = teamInfo.filter(function(entry) { return entry.trim() != ''; });
 
     // 0 = Team name, 1 = Starters, 2 = Subs
