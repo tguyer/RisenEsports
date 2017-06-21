@@ -50,7 +50,7 @@ window.onload = function() {
   request.send();
 }
 
-var pos = ["Top", "Jungle", "Mid", "ADC", "Support"];
+var pos = ["Top", "Jungle", "Mid", "Adc", "Support"];
 
 function teamProcess(plainData) {
   var teams = [];
