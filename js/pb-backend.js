@@ -27,7 +27,12 @@ window.onload = function() {
             // Display the starters
             for (var k=0; k<5; k++) {
               var captain = "";
-              if (players[k].name.slice(-1) == "*") { captain = "*"; players[k].name = players.name.slice(0, -1); }
+              // Deal with Captains
+              if (players[k].name.slice(-1) == "*") {
+                captain = "*";
+                players[k].name = players[k].name.slice(0, -1);
+              }
+
               document.getElementById("t"+i+"st"+k).innerHTML = "<a title='op.gg link' href = 'https://na.op.gg/summoner/userName=" +
               players[k].name + "'>" + players[k].name + "</a> <span class='pos'>" + players[k].pos + captain + "</span>";
             }
