@@ -1,39 +1,39 @@
 Team 1A|
-player:player:player:player:player
+player:player:player:player:player|
 player:player
 -
 Team 2A|
-player:player:player:player:player
+player:player:player:player:player|
 player:player
 -
 Team 3A|
-player:player:player:player:player
+player:player:player:player:player|
 player:player
 -
 Team 4A|
-player:player:player:player:player
+player:player:player:player:player|
 player:player
 -
 Team 5A|
-player:player:player:player:player
+player:player:player:player:player|
 player:player
 -
 Team 6A|
-player:player:player:player:player
+player:player:player:player:player|
 player:player
 -
 Team 7A|
-player:player:player:player:player
+player:player:player:player:player|
 player:player
 -
 Team 8A|
-player:player:player:player:player
+player:player:player:player:player|
 player:player
 -
 Team 9A|
-player:player:player:player:player
+player:player:player:player:player|
 player:player
 -
 Team 10A|
-player:player:player:player:player
+player:player:player:player:player|
 player:player

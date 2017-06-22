@@ -31,7 +31,6 @@ JimOfSIxPaths:IIIXZEROIII
 -
 The Meesen|
 Toplane raidboss:nomadik:bromandudeguy:Hakku:ImaBigassMoose|
-player:player
 -
 Heizenbjerg|
 frozenchains:synless:Salty turdburglar:sureshot7x:storm117|
