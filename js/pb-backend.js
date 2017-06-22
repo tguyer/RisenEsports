@@ -34,7 +34,7 @@ window.onload = function() {
               }
 
               document.getElementById("t"+i+"st"+k).innerHTML = "<a title='op.gg link' href = 'https://na.op.gg/summoner/userName=" +
-              players[k].name + "'>" + players[k].name + "</a> <span class='pos'>" + players[k].pos + captain + "</span>";
+              players[k].name + "'>" + players[k].name + captain + "</a> <span class='pos'>" + players[k].pos + "</span>";
             }
 
             // Display the subs
