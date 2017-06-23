@@ -43,7 +43,7 @@ PLACEHOLDER:BlackRedHawk:Haruna:leafy leafeon:King Hobbit|
 Team 5B|
 Clonk*:Caffè Latte:Distorter:Anhellic:KennyMasterLin|
 -
-Team Hard Stuck|
+Team Hard Stuck:kamikaze|
 Lino501:Zebra Zak:SS SaiYaLater*:Łine:Protektoren|
 -
 Project Noble Academy|

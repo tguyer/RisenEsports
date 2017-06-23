@@ -16,6 +16,7 @@ window.onload = function() {
           var processed = teamProcess(plainData);
           var teams = processed[0];
           var playerData = processed[1];
+          var coachData = processed[2];
 
           for (var i=0; i<teams.length; i++) {
             document.getElementById("t"+i).innerHTML = teams[i];
@@ -46,6 +47,17 @@ window.onload = function() {
                 document.getElementById("t"+i+"s"+k).innerHTML = "<span style='opacity:.6'>Sub Slot "+ (k+1) + "</span>";
               }
             }
+
+            // Display the coaches
+            var coach = coachData.filter(function(obj) {
+              return obj.team == teams[i];
+            });
+            if(typeof coach[0] != "undefined") {
+              document.getElementById("t"+i+"c0").innerHTML = "<a title='op.gg link' href = 'https://na.op.gg/summoner/userName=" +
+              coach[0].name +  "'>" + coach[0].name + "</a>";
+            } else {
+              document.getElementById("t"+i+"c0").innerHTML = "<span style='opacity:.6'>None</span>";
+            }
           }
 
           // Show update log
@@ -62,6 +74,8 @@ var pos = ["Top", "Jungle", "Mid", "Adc", "Support"];
 function teamProcess(plainData) {
   var teams = [];
   var playerData = [];
+  var coachData = [];
+
   var newData = plainData.split("-");
   newData = newData.filter(Boolean);
   // Loop through the teams
@@ -69,13 +83,21 @@ function teamProcess(plainData) {
     teamInfo = newData[i].split("|");
     teamInfo = teamInfo.filter(function(entry) { return entry.trim() != ''; });
     // 0 = Team name, 1 = Starters, 2 = Subs
-    teams.push(teamInfo[0]); // Add team to team list
+    teamNameCoach = teamInfo[0].split(":"); // [0] = name, [1] = coach name
+    teams.push(teamNameCoach[0]); // Add team to team list
+    if(typeof teamNameCoach[1] != "undefined") {
+      var coach = new Object();
+      coach.name = teamNameCoach[1];
+      coach.team = teamNameCoach[0];
+      coachData.push(coach);
+    }
+
     // Add starters to playerbase
     var starters = teamInfo[1].split(":");
     for(var k=0; k<starters.length; k++) {
       var player = new Object();
       player.name = starters[k];
-      player.team = teamInfo[0];
+      player.team = teamNameCoach[0];
       player.pos = pos[k];
       playerData.push(player);
     }
@@ -86,14 +108,16 @@ function teamProcess(plainData) {
       for(var k=0; k<subs.length; k++) {
         var player = new Object();
         player.name = subs[k];
-        player.team = teamInfo[0];
+        player.team = teamNameCoach[0];
         playerData.push(player);
       }
     }
   }
   playerbaseStyling(teams.length);
-  return [teams, playerData];
+  return [teams, playerData, coachData];
 }
+
+
 
 // Generates HTML for the player base page
 function playerbaseStyling(teamLen) {
@@ -112,6 +136,7 @@ function playerbaseStyling(teamLen) {
       teamTit.innerHTML = "Team " + (i+offset);
       sec.appendChild(teamTit);
 
+      // STARTERS
       var start = document.createElement("p");
       var bold = document.createElement("b");
       bold.innerHTML = "STARTERS";
@@ -125,6 +150,7 @@ function playerbaseStyling(teamLen) {
         sec.appendChild(player);
       }
 
+      // SUBS
       var spce = document.createElement("br");
       sec.appendChild(spce);
       var sub = document.createElement("p");
@@ -140,6 +166,21 @@ function playerbaseStyling(teamLen) {
         sec.appendChild(player);
       }
 
+      // COACH
+      var spce1 = document.createElement("br");
+      sec.appendChild(spce1);
+      var coach = document.createElement("p");
+      var cobold = document.createElement("b");
+      cobold.innerHTML = "COACH";
+      coach.appendChild(cobold);
+      sec.appendChild(coach);
+
+      var coach1 = document.createElement("p");
+      coach1.id = "t" + (i+offset) + "c" + 0;
+      coach1.innerHTML = "Coach " + 0;
+      sec.appendChild(coach1);
+
+      // Add everything
       teamDom.appendChild(sec);
       row.appendChild(teamDom);
     }
