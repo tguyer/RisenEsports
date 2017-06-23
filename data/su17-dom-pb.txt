@@ -26,7 +26,7 @@ Team 9A|
 Myopsis:AllDavison:kayrossi23:Wye:Black Luxin|
 -
 The Sly Guys|
-Rajin101:SS Slyther:izKey:Buckeyes:Frostyy|
+Rajin101:SS Slyther*:izKey:Buckeyes:Frostyy|
 -
 Team Autismos United|
 AristotIe:yodela4:TengoAutismo:alanepic92*:HawkFalcon99|
@@ -43,7 +43,7 @@ PLACEHOLDER:BlackRedHawk:Haruna:leafy leafeon:King Hobbit|
 Team 5B|
 Clonk*:Caffè Latte:Distorter:Anhellic:KennyMasterLin|
 -
-Team 6B|
+Team Hard Stuck|
 Lino501:Zebra Zak:SS SaiYaLater*:Łine:Protektoren|
 -
 Project Noble Academy|
