@@ -899,7 +899,7 @@
 			color: #666f77;
 			font-weight: 500;
 			height: inherit;
-			left: 1.25em;
+			left: 10em;
 			line-height: inherit;
 			margin: 0;
 			padding: 0;
@@ -915,7 +915,7 @@
 			height: inherit;
 			line-height: inherit;
 			position: absolute;
-			right: 1.25em;
+			right: 10em;
 			top: 0;
 			vertical-align: middle;
 		}
@@ -929,7 +929,6 @@
 				#header nav > ul > li {
 					border-radius: 6px;
 					display: inline-block;
-					margin-left: 2em;
 					padding-left: 0;
 				}
 
