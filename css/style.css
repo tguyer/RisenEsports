@@ -909,6 +909,12 @@
 
 			#header h1 a {
 				font-size: 1.25em;
+				
+				-moz-transition: color 0.2s ease-in-out;
+				-webkit-transition: color 0.2s ease-in-out;
+				-o-transition: color 0.2s ease-in-out;
+				-ms-transition: color 0.2s ease-in-out;
+				transition: color 0.2s ease-in-out;
 			}
 
 			#header h1 a:hover {
