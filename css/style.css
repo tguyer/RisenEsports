@@ -911,6 +911,10 @@
 				font-size: 1.25em;
 			}
 
+			#header h1 a:hover {
+				color: #ff551d;
+			}
+
 		#header nav {
 			height: inherit;
 			line-height: inherit;
@@ -1139,7 +1143,7 @@
 	width:200px
 }
 
-#nav ul ul a {
+#nav ul ul a, #nav ul ul span {
 	line-height:120%;
 	padding:10px 15px
 }
