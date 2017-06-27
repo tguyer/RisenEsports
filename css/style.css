@@ -1135,7 +1135,7 @@
 	left:0;
 	border: 1px solid lightgray;
 	background:#fff;
-	padding:0
+	padding:0;
 }
 
 #nav ul ul li {
@@ -1143,7 +1143,7 @@
 	width:200px
 }
 
-#nav ul ul a, #nav ul ul span {
+#nav ul ul a, #nav ul span, #nav ul ul span {
 	line-height:120%;
 	padding:10px 15px
 }
