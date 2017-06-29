@@ -1,0 +1,11 @@
+section#main {
+    background: #24262f;
+}
+
+h2 {
+    color: white;
+}
+
+iframe{
+    overflow:hidden;
+}
