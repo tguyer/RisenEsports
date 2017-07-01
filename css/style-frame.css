@@ -12,8 +12,19 @@ iframe{
 
 p {
   color: #ccc;
+  margin-bottom: .5em;
 }
 
 button {
-  background-color: lightgray;
+  background-color: #ff7324;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+pre {
+  background-color: #24262f;
+  padding: 10px;
+  color: lightgray;
 }
