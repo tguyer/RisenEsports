@@ -18,7 +18,7 @@ Generation X|
 Accël*:lemifoo:Mc logic:Ruy:TakaharaAyumii|
 -
 Knightmare Nights|
-goodhit556*:jackiechan3:Peeco:Lilswida:DeathSummener|
+goodhit556*:jackiechan3:Peeco:swida:DeathSummener|
 -
 The Attitude Adjusters|
 Toplane Raidboss*:Gravesrobber:Lilswidb:Lörd Grim:ChattyDrawers|
@@ -47,7 +47,8 @@ Target Ban Us|
 JI4N:BlackRedHawk:Haruna:leafy leafeon*:Wize Waffle|
 -
 Game of Throws|
-Clonk*:CoochiCarnage:Distorter:Anhellic:KennyMasterLin|
+Clonk*:CoochiCarnage:RomanorumLegio:Distorter:KennyMasterLin|
+Ćharade
 -
 Team Hard Stuck:kamikazesaint|
 GetReap:Zebra Zak:SS SaiYaLater*:Łine:Protektoren|
