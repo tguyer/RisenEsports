@@ -909,7 +909,7 @@
 
 			#header h1 a {
 				font-size: 1.25em;
-				
+
 				-moz-transition: color 0.2s ease-in-out;
 				-webkit-transition: color 0.2s ease-in-out;
 				-o-transition: color 0.2s ease-in-out;
@@ -1215,4 +1215,17 @@
 .pos {
 	opacity: .7;
 	font-size: .8em;
+}
+
+
+/* FAQ */
+#toc {
+	background-color: #f5f3f3;
+	width: 250px;
+	padding: 10px 20px;
+	margin-bottom: 30px;
+}
+
+#toc h4, #toc ol {
+	margin: 0;
 }

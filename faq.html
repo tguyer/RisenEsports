@@ -17,6 +17,14 @@
 		<script src="/js/skel-layers.min.js"></script>
 		<script src="/js/init.js"></script>
 		<script src="/js/pb-backend.js"></script>
+		<script>
+			$('a').click(function(){
+		    $('html, body').animate({
+		        scrollTop: $( $(this).attr('href') ).offset().top
+		    }, 500);
+		    return false;
+			});
+		</script>
 		<noscript>
 			<link rel="stylesheet" href="/css/skel.css" />
 			<link rel="stylesheet" href="/css/style.css" />
@@ -93,15 +101,17 @@
 				<hr class="major" />
 				<div class="container">
 					<h2>Frequently Asked Questions</h2> <a href="#rulebook">Jump to Rulebook</a>
-					<h3>Table of Contents</h3>
-					<ul>
-						<li><a href="#general">General</a></li>
-						<li><a href="#tm">Team Management</a></li>
-						<li><a href="#pb">Pick/Ban</a></li>
-						<li><a href="#ing">In-Game</a></li>
-						<li><a href="#pg">Postgame</a></li>
-						<li><a href="#other">Other</a></li>
-					</ul>
+					<div id="toc">
+						<h4>Table of Contents</h3>
+						<ol>
+							<li><a href="#general">General</a></li>
+							<li><a href="#tm">Team Management</a></li>
+							<li><a href="#pb">Pick/Ban</a></li>
+							<li><a href="#ing">In-Game</a></li>
+							<li><a href="#pg">Postgame</a></li>
+							<li><a href="#other">Other</a></li>
+						</ol>
+					</div>
 					<h3 id="general">General (Viewer Questions)</h3>
 					<p><b>When are the games?</b><br />
 					Rampage games are on Fridays 7PM EST, Dominate on Saturdays and Champions on Sunday at the same times. Summer split starts on the weekend of July 14th, 2017.<br />
