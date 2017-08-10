@@ -6,8 +6,8 @@ ThePredictor:derpycatzftw:Frost Fleury*:Mastadge:Bullet Punch|
 MsWarri
 -
 Outplay or Feed:Bestrin|
-ReecesCreamery*:deadzombie918:Verdai:Prime Rhyme at 9:Suenrg|
-suenrg
+ReecesCreamery*:junglernamedfear:Verdai:Prime Rhyme at 9:Sethcm|
+suenrg:deadzombie918
 -
 Sneaky Ticklers:DrunkCatalyst|
 Timebreaker:Pink Fluffy Pony*:FrozenFruit:TheSnugglebutt:Khyroe|
@@ -24,8 +24,8 @@ Deep Sea Monkeys|
 speakerknockers:Ennsight:datrainboi:SeanT009:SparklingCyclone*|
 -
 Ekko Fox|
-The Merz:Sharkba17:TriBard:Noxian Cutie:Bubbzies*|
-Axzaqt
+PhayrinLunair:Sharkba17:TriBard:Noxian Cutie:Bubbzies*|
+Dr.Volimundo:The Merz
 -
 Lmao Ayy Gaming|
 UnlimitedGamers*:Trainer Sans:BlackRabby:WizardTheGoat:RustySporks|
@@ -41,14 +41,14 @@ Learnin Mid Only
 
 
 Cloud 10|
-fancy fartz:TRU BULLSEYE:Journal27*:Naterbugz:Yaari|
-ItzPkedar:arcaninekiller
+fancy fartz:ItzPkedar:Journal27*:Naterbugz:Yaari|
+tmanz:arcaninekiller
 -
 CryQuest:WîIl|
 Prince Pucci*:ariana granbae:OG Prayer:CRY Pandag:ZAggie2|
 -
 Team PentaMid|
-Nintendochristo4:Boosted Lee Sinn:Viktorious Azir*:MLBlackjack:daddyboy|
+Kadorr:Boosted Lee Sinn:Viktorious Azir*:MLBlackjack:Adun Hallar|
 -
 FreeLG|
 Dylan13243*:TSM Ender:Mr Worley:All Witness:conflagrati0n|
@@ -57,7 +57,8 @@ Incredible Mortals:snapxynith|
 Alfonzeh:lolgamerbro7:Astrovictor:Kindred lamars*:xXSonicTraceXx|
 -
 FZ2K Telecom:Paradise Proxy|
-Xanthorr*:ALucidMonkey:Amazinx:jonathandumlao:Drevik|
+Xanthorr*:ALucidMonkey:Mr Worley:jonathandumlao:Drevik|
+Solarphish
 -
 Carthago Delenda Est|
 maffleet:Merchant Of Deth:ShrekJongUn:Phoenyxx:TTSlayer*|
@@ -71,3 +72,4 @@ Blame The ADC
 -
 Masters of None:Wiggly Kays|
 BrzlMan:phortwenty*:Bravo Waldorf:themajor1224:Glitch Heart|
+
