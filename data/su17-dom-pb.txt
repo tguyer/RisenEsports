@@ -57,7 +57,7 @@ GetReap:Zebra Zak:SS SaiYaLater*:Tzastin:Protektoren|
 Lino501:firedrake200
 -
 Project Noble Academy|
-DeadNord:makarov dmw:weslars:Enigma 8:itstheafternoon*|
+DeadNord:makarov:weslars:Enigma 8:itstheafternoon*|
 W1nter Wonder
 -
 Screaming Suns Gaming|
